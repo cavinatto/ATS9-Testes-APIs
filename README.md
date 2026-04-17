@@ -63,7 +63,7 @@ pytest test_fluxo_todos.tavern.yaml -v -s
 
 **Executar todos os testes:**
 ```bash
-pytest -v
+python -m pytest
 ```
 
 **Executar com relatório HTML:**
