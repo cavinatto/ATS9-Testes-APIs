@@ -53,22 +53,17 @@ cd "c:\Users\2400911\Downloads\ATS9 - Testes APIs"
 
 **Executar o teste Tavern:**
 ```bash
-pytest test_fluxo_todos.tavern.yaml -v
+python -m pytest test_fluxo_todos.tavern.yaml -v
 ```
 
 **Executar com saída detalhada:**
 ```bash
-pytest test_fluxo_todos.tavern.yaml -v -s
+python -m pytest test_fluxo_todos.tavern.yaml -v -s
 ```
 
 **Executar todos os testes:**
 ```bash
 python -m pytest
-```
-
-**Executar com relatório HTML:**
-```bash
-pytest --html=report.html --self-contained-html
 ```
 
 ## 📝 Descrição dos Testes
